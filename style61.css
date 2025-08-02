@@ -1,0 +1,317 @@
+.blue-box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.color-box {
+    width: 200px;
+    height: 100px;
+    background-image: url('https://picsum.photos/200/100');
+    background-size: cover;
+    background-position: center;
+}
+
+.scroll-test {
+    width: 100%;
+    height: 300%;
+    background-image: url('https: //picsum.photos/800/300');
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.image-box {
+    width: 300px;
+    height: 150px;
+    background-image: url('https://picsum.photos/300/150');
+    background-position: top left;
+}
+
+.repeat-test {
+    width: 400px;
+    height: 200px;
+    background-image: url('https://picsum.photos/100/100');
+    background-repeat: repeat;
+}
+
+.image-center {
+    width: 300px;
+    height: 150px;
+    background-image: url('https://picsum.photos/300/150');
+    background-position: center center;
+}
+
+.bottom-border {
+    width: 200px;
+    height: 100px;
+    border-bottom: 5px solid red;
+}
+
+.colored-border {
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    border-color: green;
+}
+
+.left-border {
+    width: 200px;
+    height: 100px;
+    border-left: 3px solid orange;
+}
+
+.right-border {
+    width: 200px;
+    height: 100px;
+    border-right: 3px solid purple;
+}
+
+.top-border {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.style-all-sides {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.border-width-all {
+    width: 200px;
+    height: 100px;
+    border: 5px solid black;
+    border-width: 5px;
+}
+
+.border-all-in-one {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.text-colored {
+    color: blue;
+}
+
+.pointer-box {
+    cursor: pointer;
+}
+
+.block-switch {
+    display: block;
+}
+
+.blur-image {
+    filter: blur(5px);
+}
+
+.float-left {
+    float: left;
+}
+
+.cleared-box {
+    clear: both;
+}
+
+.font-change {
+    font-family: Arial, sans-serif;
+}
+
+.font-size-sample {
+    font-size: 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.font-shorthand {
+    font: italic small-caps bold 20px/1.5 Arial, sans-serif;
+}
+
+.fixed-height {
+    height: 150px;
+}
+
+.fixed-width {
+    width: 300px;
+}
+
+.space-text {
+    letter-spacing: 2px;
+}
+
+.line-space {
+    line-height: 1.5;
+}
+
+.custom-marker {
+    list-style-image: url('https://picsum.photos/20/20');
+}
+
+.marker-position {
+    list-style-position: inside;
+}
+
+.marker-type {
+    list-style-type: square;
+}
+
+.styled-list {
+    list-style: disc inside;
+}
+
+.margin-bottom-box {
+    margin-bottom: 20px;
+}
+
+.margin-left-box {
+    margin-left: 20px;
+}
+
+.margin-right-box {
+    margin-right: 20px;
+}
+
+.margin-top-box {
+    margin-top: 20px;
+}
+
+.margin-all-box {
+    margin: 20px;
+}
+
+.padding-bottom-box {
+    padding-bottom: 20px;
+}
+
+.padding-left-box {
+    padding-left: 20px;
+}
+
+.padding-right-box {
+    padding-right: 20px;
+}
+
+.padding-top-box {
+    padding-top: 20px;
+}
+
+.padding-all-box {
+    padding: 20px;
+}
+
+.overflow-box {
+    overflow: scroll;
+    width: 300px;
+    height: 100px;
+}
+
+.top-position {
+    position: relative;
+    top: 20px;
+}
+
+.left-position {
+    position: relative;
+    left: 20px;
+}
+
+.text-align-box {
+    text-align: center;
+}
+
+.decorated-text {
+    text-decoration: underline;
+}
+
+.indent-text {
+    text-indent: 30px;
+}
+
+.vert-img {
+    vertical-align: middle;
+}
+
+.box1 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 100px;
+}
+
+.box2 {
+    position: relative;
+    z-index: 2;
+    width: 150px;
+    height: 80px;
+}
+
+.box3 {
+    position: relative;
+    z-index: 3;
+    width: 100px;
+    height: 60px;
+}
+
+.hover-box {  
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    transition: background-color 0.3s ;
+}
+
+.hover-box:hover {
+    background-color: pink;
+}
+
+.focus-input:focus {
+    border-color: #eef;
+    outline: none;
+    border: 2px solid blue;
+}
+
+input[type="checkbox"]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+
+.first-child-box p:first-child {
+    color: darkorange;
+}
+
+.first-of-type-box p:first-of-type {
+    color: darkviolet;
+}
+
+.last-child-box p:last-child {
+    color: darkcyan;
+}
+
+.not-last-child-box div p:not(:last-child) {
+    background-color: darkgoldenrod;
+}
+
+.nth-child-box p:nth-child(2) {
+    color: darkmagenta;
+}
+
+.active-box button:active {
+    background-color: lightgreen;
+    color: darkred;
+}
+
+.after-box::after {
+    content: " ←これがafter";
+    color:antiquewhite;
+}
+
+.before-box::before {
+    content: "→これがbefore";
+    color: antiquewhite;
+}
